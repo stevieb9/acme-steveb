@@ -5,7 +5,7 @@ use warnings;
 
 our $VERSION = '0.02';
 
-__placeholder {}
+sub __placeholder {}
 
 1;
 __END__

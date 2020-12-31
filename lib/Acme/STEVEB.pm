@@ -3,7 +3,7 @@ package Acme::STEVEB;
 use strict;
 use warnings;
 
-our $VERSION = '1.37';
+our $VERSION = '0.01';
 
 sub __placeholder {}
 
@@ -12,7 +12,7 @@ __END__
 
 =head1 NAME
 
-Acme::STEVEB - Test release distribution for Dist::Mgr
+Acme::STEVEB - One line description
 
 =for html
 <a href="https://github.com/stevieb9/acme-steveb/actions"><img src="https://github.com/stevieb9/acme-steveb/workflows/CI/badge.svg"/></a>
@@ -22,9 +22,6 @@ Acme::STEVEB - Test release distribution for Dist::Mgr
 =head1 SYNOPSIS
 
 =head1 DESCRIPTION
-
-This distribution literally does nothing. It's here as an upload test for
-L<Dist::Mgr>.
 
 =head1 METHODS
 
@@ -42,11 +39,11 @@ I<Returns>: C<0> upon success.
 
 =head1 AUTHOR
 
-Steve Bertrand, C<< <steveb at cpan.org> >>
+Steve, C<< <steveb at cpan.org> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2020 Steve Bertrand.
+Copyright 2020 Steve.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a

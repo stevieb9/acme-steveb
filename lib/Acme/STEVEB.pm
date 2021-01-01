@@ -39,11 +39,11 @@ I<Returns>: C<0> upon success.
 
 =head1 AUTHOR
 
-Steve, C<< <steveb at cpan.org> >>
+Steve Bertrand, C<< <steveb at cpan.org> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2020 Steve.
+Copyright 2020 Steve Bertrand.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a

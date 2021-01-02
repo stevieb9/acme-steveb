@@ -1,0 +1,237 @@
+perl-5.10.1
+==========
+Going to read '/home/spek/.cpan/Metadata'
+  Database was generated on Sat, 02 Jan 2021 08:17:03 GMT
+App::cpanminus is up to date (1.7044).
+--> Working on .
+Configuring /home/spek/brewbuild/dist-mgr ... OK
+==> Found dependencies: CPAN::Uploader
+--> Working on CPAN::Uploader
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/CPAN-Uploader-0.103015.tar.gz ... OK
+Configuring CPAN-Uploader-0.103015 ... OK
+==> Found dependencies: File::HomeDir, HTTP::Status, HTTP::Request::Common, LWP::UserAgent, LWP::Protocol::https, Getopt::Long::Descriptive
+--> Working on File::HomeDir
+Fetching http://www.cpan.org/authors/id/R/RE/REHSACK/File-HomeDir-1.006.tar.gz ... OK
+Configuring File-HomeDir-1.006 ... OK
+==> Found dependencies: File::Which
+--> Working on File::Which
+Fetching http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.23.tar.gz ... OK
+Configuring File-Which-1.23 ... OK
+Building and testing File-Which-1.23 ... OK
+Successfully installed File-Which-1.23
+Building and testing File-HomeDir-1.006 ... OK
+Successfully installed File-HomeDir-1.006
+--> Working on HTTP::Status
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.26.tar.gz ... OK
+Configuring HTTP-Message-6.26 ... OK
+==> Found dependencies: LWP::MediaTypes, Encode::Locale, Encode, IO::HTML, URI, HTTP::Date, IO::Compress::Bzip2, IO::Uncompress::Bunzip2
+--> Working on LWP::MediaTypes
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz ... OK
+Configuring LWP-MediaTypes-6.04 ... OK
+Building and testing LWP-MediaTypes-6.04 ... OK
+Successfully installed LWP-MediaTypes-6.04
+--> Working on Encode::Locale
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz ... OK
+Configuring Encode-Locale-1.05 ... OK
+Building and testing Encode-Locale-1.05 ... OK
+Successfully installed Encode-Locale-1.05
+--> Working on Encode
+Fetching http://www.cpan.org/authors/id/D/DA/DANKOGAI/Encode-3.08.tar.gz ... OK
+Configuring Encode-3.08 ... OK
+Building and testing Encode-3.08 ... OK
+Successfully installed Encode-3.08 (upgraded from 2.35)
+--> Working on IO::HTML
+Fetching http://www.cpan.org/authors/id/C/CJ/CJM/IO-HTML-1.004.tar.gz ... OK
+Configuring IO-HTML-1.004 ... OK
+Building and testing IO-HTML-1.004 ... OK
+Successfully installed IO-HTML-1.004
+--> Working on URI
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/URI-5.05.tar.gz ... OK
+Configuring URI-5.05 ... OK
+==> Found dependencies: Test::Needs
+--> Working on Test::Needs
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Test-Needs-0.002006.tar.gz ... OK
+Configuring Test-Needs-0.002006 ... OK
+Building and testing Test-Needs-0.002006 ... OK
+Successfully installed Test-Needs-0.002006
+Building and testing URI-5.05 ... OK
+Successfully installed URI-5.05
+--> Working on HTTP::Date
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.05.tar.gz ... OK
+Configuring HTTP-Date-6.05 ... OK
+==> Found dependencies: Time::Zone, Time::Local
+--> Working on Time::Zone
+Fetching http://www.cpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.33.tar.gz ... OK
+Configuring TimeDate-2.33 ... OK
+Building and testing TimeDate-2.33 ... OK
+Successfully installed TimeDate-2.33
+--> Working on Time::Local
+Fetching http://www.cpan.org/authors/id/D/DR/DROLSKY/Time-Local-1.30.tar.gz ... OK
+Configuring Time-Local-1.30 ... OK
+Building and testing Time-Local-1.30 ... OK
+Successfully installed Time-Local-1.30 (upgraded from 1.1901)
+Building and testing HTTP-Date-6.05 ... OK
+Successfully installed HTTP-Date-6.05
+--> Working on IO::Compress::Bzip2
+Fetching http://www.cpan.org/authors/id/P/PM/PMQS/IO-Compress-2.096.tar.gz ... OK
+Configuring IO-Compress-2.096 ... OK
+==> Found dependencies: Compress::Raw::Bzip2, Compress::Raw::Zlib
+--> Working on Compress::Raw::Bzip2
+Fetching http://www.cpan.org/authors/id/P/PM/PMQS/Compress-Raw-Bzip2-2.096.tar.gz ... OK
+Configuring Compress-Raw-Bzip2-2.096 ... OK
+Building and testing Compress-Raw-Bzip2-2.096 ... OK
+Successfully installed Compress-Raw-Bzip2-2.096 (upgraded from 2.020)
+--> Working on Compress::Raw::Zlib
+Fetching http://www.cpan.org/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.096.tar.gz ... OK
+Configuring Compress-Raw-Zlib-2.096 ... OK
+Building and testing Compress-Raw-Zlib-2.096 ... OK
+Successfully installed Compress-Raw-Zlib-2.096 (upgraded from 2.020)
+Building and testing IO-Compress-2.096 ... OK
+Successfully installed IO-Compress-2.096 (upgraded from 2.020)
+Building and testing HTTP-Message-6.26 ... OK
+Successfully installed HTTP-Message-6.26
+--> Working on LWP::UserAgent
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.51.tar.gz ... OK
+Configuring libwww-perl-6.51 ... OK
+==> Found dependencies: Test::RequiresInternet, File::Listing, HTTP::Daemon, HTML::HeadParser, HTTP::Cookies, WWW::RobotRules, HTTP::Negotiate, HTML::Entities, Net::HTTP
+--> Working on Test::RequiresInternet
+Fetching http://www.cpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz ... OK
+Configuring Test-RequiresInternet-0.05 ... OK
+Building and testing Test-RequiresInternet-0.05 ... OK
+Successfully installed Test-RequiresInternet-0.05
+--> Working on File::Listing
+Fetching http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Listing-6.14.tar.gz ... OK
+Configuring File-Listing-6.14 ... OK
+Building and testing File-Listing-6.14 ... OK
+Successfully installed File-Listing-6.14
+--> Working on HTTP::Daemon
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Daemon-6.12.tar.gz ... OK
+==> Found dependencies: Module::Build::Tiny
+--> Working on Module::Build::Tiny
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz ... OK
+==> Found dependencies: ExtUtils::Helpers, ExtUtils::InstallPaths, ExtUtils::Config
+--> Working on ExtUtils::Helpers
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz ... OK
+Configuring ExtUtils-Helpers-0.026 ... OK
+Building and testing ExtUtils-Helpers-0.026 ... OK
+Successfully installed ExtUtils-Helpers-0.026
+--> Working on ExtUtils::InstallPaths
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz ... OK
+Configuring ExtUtils-InstallPaths-0.012 ... OK
+==> Found dependencies: ExtUtils::Config
+--> Working on ExtUtils::Config
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-Config-0.008.tar.gz ... OK
+Configuring ExtUtils-Config-0.008 ... OK
+Building and testing ExtUtils-Config-0.008 ... OK
+Successfully installed ExtUtils-Config-0.008
+Building and testing ExtUtils-InstallPaths-0.012 ... OK
+Successfully installed ExtUtils-InstallPaths-0.012
+Configuring Module-Build-Tiny-0.039 ... OK
+Building and testing Module-Build-Tiny-0.039 ... OK
+Successfully installed Module-Build-Tiny-0.039
+Configuring HTTP-Daemon-6.12 ... OK
+==> Found dependencies: HTTP::Tiny, IO::Socket::IP
+--> Working on HTTP::Tiny
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/HTTP-Tiny-0.076.tar.gz ... OK
+Configuring HTTP-Tiny-0.076 ... OK
+Building and testing HTTP-Tiny-0.076 ... OK
+Successfully installed HTTP-Tiny-0.076
+--> Working on IO::Socket::IP
+Fetching http://www.cpan.org/authors/id/P/PE/PEVANS/IO-Socket-IP-0.41.tar.gz ... OK
+Configuring IO-Socket-IP-0.41 ... OK
+==> Found dependencies: Socket
+--> Working on Socket
+Fetching http://www.cpan.org/authors/id/P/PE/PEVANS/Socket-2.030.tar.gz ... OK
+==> Found dependencies: ExtUtils::Constant
+--> Working on ExtUtils::Constant
+Fetching http://www.cpan.org/authors/id/N/NW/NWCLARK/ExtUtils-Constant-0.25.tar.gz ... OK
+Configuring ExtUtils-Constant-0.25 ... OK
+Building and testing ExtUtils-Constant-0.25 ... OK
+Successfully installed ExtUtils-Constant-0.25 (upgraded from 0.22)
+Configuring Socket-2.030 ... OK
+Building and testing Socket-2.030 ... OK
+Successfully installed Socket-2.030 (upgraded from 1.82)
+Building and testing IO-Socket-IP-0.41 ... OK
+Successfully installed IO-Socket-IP-0.41
+Building and testing HTTP-Daemon-6.12 ... OK
+Successfully installed HTTP-Daemon-6.12
+--> Working on HTML::HeadParser
+Fetching http://www.cpan.org/authors/id/C/CA/CAPOEIRAB/HTML-Parser-3.75.tar.gz ... OK
+Configuring HTML-Parser-3.75 ... OK
+==> Found dependencies: HTML::Tagset
+--> Working on HTML::Tagset
+Fetching http://www.cpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz ... OK
+Configuring HTML-Tagset-3.20 ... OK
+Building and testing HTML-Tagset-3.20 ... OK
+Successfully installed HTML-Tagset-3.20
+Building and testing HTML-Parser-3.75 ... OK
+Successfully installed HTML-Parser-3.75
+--> Working on HTTP::Cookies
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.09.tar.gz ... OK
+Configuring HTTP-Cookies-6.09 ... OK
+Building and testing HTTP-Cookies-6.09 ... OK
+Successfully installed HTTP-Cookies-6.09
+--> Working on WWW::RobotRules
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz ... OK
+Configuring WWW-RobotRules-6.02 ... OK
+Building and testing WWW-RobotRules-6.02 ... OK
+Successfully installed WWW-RobotRules-6.02
+--> Working on HTTP::Negotiate
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz ... OK
+Configuring HTTP-Negotiate-6.01 ... OK
+Building and testing HTTP-Negotiate-6.01 ... OK
+Successfully installed HTTP-Negotiate-6.01
+--> Working on Net::HTTP
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz ... OK
+Configuring Net-HTTP-6.19 ... OK
+Building and testing Net-HTTP-6.19 ... OK
+Successfully installed Net-HTTP-6.19
+Building and testing libwww-perl-6.51 ... FAIL
+--> Working on LWP::Protocol::https
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/LWP-Protocol-https-6.10.tar.gz ... OK
+Configuring LWP-Protocol-https-6.10 ... OK
+==> Found dependencies: IO::Socket::SSL::Utils, IO::Socket::SSL, LWP::Protocol::http, Mozilla::CA, LWP::UserAgent
+--> Working on IO::Socket::SSL::Utils
+Fetching http://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.068.tar.gz ... OK
+==> Found dependencies: Net::SSLeay
+--> Working on Net::SSLeay
+Fetching http://www.cpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz ... OK
+Configuring Net-SSLeay-1.88 ... OK
+Building and testing Net-SSLeay-1.88 ... OK
+Successfully installed Net-SSLeay-1.88
+Configuring IO-Socket-SSL-2.068 ... OK
+Building and testing IO-Socket-SSL-2.068 ... OK
+Successfully installed IO-Socket-SSL-2.068
+--> Working on Mozilla::CA
+Fetching http://www.cpan.org/authors/id/A/AB/ABH/Mozilla-CA-20200520.tar.gz ... OK
+Configuring Mozilla-CA-20200520 ... OK
+Building and testing Mozilla-CA-20200520 ... OK
+Successfully installed Mozilla-CA-20200520
+--> Working on Getopt::Long::Descriptive
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptive-0.105.tar.gz ... OK
+Configuring Getopt-Long-Descriptive-0.105 ... OK
+==> Found dependencies: CPAN::Meta::Check, Params::Validate
+--> Working on CPAN::Meta::Check
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz ... OK
+Configuring CPAN-Meta-Check-0.014 ... OK
+Building and testing CPAN-Meta-Check-0.014 ... OK
+Successfully installed CPAN-Meta-Check-0.014
+--> Working on Params::Validate
+Fetching http://www.cpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.30.tar.gz ... OK
+Configuring Params-Validate-1.30 ... OK
+==> Found dependencies: Test::Requires, Module::Implementation
+--> Working on Test::Requires
+Fetching http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz ... OK
+Configuring Test-Requires-0.11 ... OK
+Building and testing Test-Requires-0.11 ... OK
+Successfully installed Test-Requires-0.11
+--> Working on Module::Implementation
+Fetching http://www.cpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz ... OK
+Configuring Module-Implementation-0.09 ... OK
+Building and testing Module-Implementation-0.09 ... OK
+Successfully installed Module-Implementation-0.09
+Building and testing Params-Validate-1.30 ... OK
+Successfully installed Params-Validate-1.30
+Building and testing Getopt-Long-Descriptive-0.105 ... OK
+Successfully installed Getopt-Long-Descriptive-0.105
+40 distributions installed

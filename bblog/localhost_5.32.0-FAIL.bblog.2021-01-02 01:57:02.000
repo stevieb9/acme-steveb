@@ -1,0 +1,336 @@
+perl-5.32.0
+==========
+Loading internal logger. Log::Log4perl recommended for better logging
+Reading '/home/spek/.cpan/Metadata'
+  Database was generated on Sat, 02 Jan 2021 08:17:03 GMT
+App::cpanminus is up to date (1.7044).
+--> Working on .
+Configuring /home/spek/brewbuild/dist-mgr ... OK
+==> Found dependencies: CPAN::Uploader, Module::Starter, Capture::Tiny, File::Touch, Hook::Output::Tiny, File::Find::Rule, Term::ReadKey, PPI, Mock::Sub, File::Copy::Recursive
+--> Working on CPAN::Uploader
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/CPAN-Uploader-0.103015.tar.gz ... OK
+Configuring CPAN-Uploader-0.103015 ... OK
+==> Found dependencies: LWP::Protocol::https, Getopt::Long::Descriptive, LWP::UserAgent, Term::ReadKey, File::HomeDir
+--> Working on LWP::Protocol::https
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/LWP-Protocol-https-6.10.tar.gz ... OK
+Configuring LWP-Protocol-https-6.10 ... OK
+==> Found dependencies: Test::RequiresInternet, IO::Socket::SSL, Mozilla::CA, LWP::UserAgent, IO::Socket::SSL::Utils, LWP::Protocol::http, Net::HTTPS
+--> Working on Test::RequiresInternet
+Fetching http://www.cpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz ... OK
+Configuring Test-RequiresInternet-0.05 ... OK
+Building and testing Test-RequiresInternet-0.05 ... OK
+Successfully installed Test-RequiresInternet-0.05
+--> Working on IO::Socket::SSL
+Fetching http://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.068.tar.gz ... OK
+==> Found dependencies: Net::SSLeay
+--> Working on Net::SSLeay
+Fetching http://www.cpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz ... OK
+Configuring Net-SSLeay-1.88 ... OK
+Building and testing Net-SSLeay-1.88 ... OK
+Successfully installed Net-SSLeay-1.88
+Configuring IO-Socket-SSL-2.068 ... OK
+Building and testing IO-Socket-SSL-2.068 ... OK
+Successfully installed IO-Socket-SSL-2.068
+--> Working on Mozilla::CA
+Fetching http://www.cpan.org/authors/id/A/AB/ABH/Mozilla-CA-20200520.tar.gz ... OK
+Configuring Mozilla-CA-20200520 ... OK
+Building and testing Mozilla-CA-20200520 ... OK
+Successfully installed Mozilla-CA-20200520
+--> Working on LWP::UserAgent
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.51.tar.gz ... OK
+Configuring libwww-perl-6.51 ... OK
+==> Found dependencies: Net::HTTP, HTTP::Negotiate, WWW::RobotRules, HTTP::Cookies, File::Listing, HTTP::Daemon
+--> Working on Net::HTTP
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz ... OK
+Configuring Net-HTTP-6.19 ... OK
+Building and testing Net-HTTP-6.19 ... OK
+Successfully installed Net-HTTP-6.19
+--> Working on HTTP::Negotiate
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz ... OK
+Configuring HTTP-Negotiate-6.01 ... OK
+Building and testing HTTP-Negotiate-6.01 ... OK
+Successfully installed HTTP-Negotiate-6.01
+--> Working on WWW::RobotRules
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz ... OK
+Configuring WWW-RobotRules-6.02 ... OK
+Building and testing WWW-RobotRules-6.02 ... OK
+Successfully installed WWW-RobotRules-6.02
+--> Working on HTTP::Cookies
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.09.tar.gz ... OK
+Configuring HTTP-Cookies-6.09 ... OK
+Building and testing HTTP-Cookies-6.09 ... OK
+Successfully installed HTTP-Cookies-6.09
+--> Working on File::Listing
+Fetching http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Listing-6.14.tar.gz ... OK
+Configuring File-Listing-6.14 ... OK
+Building and testing File-Listing-6.14 ... OK
+Successfully installed File-Listing-6.14
+--> Working on HTTP::Daemon
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Daemon-6.12.tar.gz ... OK
+==> Found dependencies: Module::Build::Tiny
+--> Working on Module::Build::Tiny
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz ... OK
+==> Found dependencies: ExtUtils::Helpers, ExtUtils::Config, ExtUtils::InstallPaths
+--> Working on ExtUtils::Helpers
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz ... OK
+Configuring ExtUtils-Helpers-0.026 ... OK
+Building and testing ExtUtils-Helpers-0.026 ... OK
+Successfully installed ExtUtils-Helpers-0.026
+--> Working on ExtUtils::Config
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-Config-0.008.tar.gz ... OK
+Configuring ExtUtils-Config-0.008 ... OK
+Building and testing ExtUtils-Config-0.008 ... OK
+Successfully installed ExtUtils-Config-0.008
+--> Working on ExtUtils::InstallPaths
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz ... OK
+Configuring ExtUtils-InstallPaths-0.012 ... OK
+Building and testing ExtUtils-InstallPaths-0.012 ... OK
+Successfully installed ExtUtils-InstallPaths-0.012
+Configuring Module-Build-Tiny-0.039 ... OK
+Building and testing Module-Build-Tiny-0.039 ... OK
+Successfully installed Module-Build-Tiny-0.039
+Configuring HTTP-Daemon-6.12 ... OK
+Building and testing HTTP-Daemon-6.12 ... OK
+Successfully installed HTTP-Daemon-6.12
+Building and testing libwww-perl-6.51 ... FAIL
+--> Working on Getopt::Long::Descriptive
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Getopt-Long-Descriptive-0.105.tar.gz ... OK
+Configuring Getopt-Long-Descriptive-0.105 ... OK
+==> Found dependencies: Params::Validate, Test::Warnings, CPAN::Meta::Check, Sub::Exporter::Util, Sub::Exporter
+--> Working on Params::Validate
+Fetching http://www.cpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.30.tar.gz ... OK
+==> Found dependencies: Module::Build
+--> Working on Module::Build
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-0.4231.tar.gz ... OK
+Configuring Module-Build-0.4231 ... OK
+Building and testing Module-Build-0.4231 ... OK
+Successfully installed Module-Build-0.4231
+Configuring Params-Validate-1.30 ... OK
+==> Found dependencies: Module::Implementation, Test::Requires
+--> Working on Module::Implementation
+Fetching http://www.cpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz ... OK
+Configuring Module-Implementation-0.09 ... OK
+==> Found dependencies: Test::Requires, Module::Runtime
+--> Working on Test::Requires
+Fetching http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz ... OK
+Configuring Test-Requires-0.11 ... OK
+Building and testing Test-Requires-0.11 ... OK
+Successfully installed Test-Requires-0.11
+--> Working on Module::Runtime
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz ... OK
+Configuring Module-Runtime-0.016 ... OK
+Building and testing Module-Runtime-0.016 ... OK
+Successfully installed Module-Runtime-0.016
+Building and testing Module-Implementation-0.09 ... OK
+Successfully installed Module-Implementation-0.09
+Building and testing Params-Validate-1.30 ... OK
+Successfully installed Params-Validate-1.30
+--> Working on Test::Warnings
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.030.tar.gz ... OK
+Configuring Test-Warnings-0.030 ... OK
+Building and testing Test-Warnings-0.030 ... OK
+Successfully installed Test-Warnings-0.030
+--> Working on CPAN::Meta::Check
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz ... OK
+Configuring CPAN-Meta-Check-0.014 ... OK
+==> Found dependencies: Test::Deep
+--> Working on Test::Deep
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz ... OK
+Configuring Test-Deep-1.130 ... OK
+Building and testing Test-Deep-1.130 ... OK
+Successfully installed Test-Deep-1.130
+Building and testing CPAN-Meta-Check-0.014 ... OK
+Successfully installed CPAN-Meta-Check-0.014
+--> Working on Sub::Exporter::Util
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Sub-Exporter-0.987.tar.gz ... OK
+Configuring Sub-Exporter-0.987 ... OK
+==> Found dependencies: Sub::Install, Params::Util, Data::OptList
+--> Working on Sub::Install
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Sub-Install-0.928.tar.gz ... OK
+Configuring Sub-Install-0.928 ... OK
+Building and testing Sub-Install-0.928 ... OK
+Successfully installed Sub-Install-0.928
+--> Working on Params::Util
+Fetching http://www.cpan.org/authors/id/R/RE/REHSACK/Params-Util-1.102.tar.gz ... OK
+Configuring Params-Util-1.102 ... OK
+==> Found dependencies: Test::LeakTrace
+--> Working on Test::LeakTrace
+Fetching http://www.cpan.org/authors/id/L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz ... OK
+Configuring Test-LeakTrace-0.16 ... OK
+Building and testing Test-LeakTrace-0.16 ... OK
+Successfully installed Test-LeakTrace-0.16
+Building and testing Params-Util-1.102 ... OK
+Successfully installed Params-Util-1.102
+--> Working on Data::OptList
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Data-OptList-0.110.tar.gz ... OK
+Configuring Data-OptList-0.110 ... OK
+Building and testing Data-OptList-0.110 ... OK
+Successfully installed Data-OptList-0.110
+Building and testing Sub-Exporter-0.987 ... OK
+Successfully installed Sub-Exporter-0.987
+Building and testing Getopt-Long-Descriptive-0.105 ... OK
+Successfully installed Getopt-Long-Descriptive-0.105
+--> Working on Term::ReadKey
+Fetching http://www.cpan.org/authors/id/J/JS/JSTOWE/TermReadKey-2.38.tar.gz ... OK
+Configuring TermReadKey-2.38 ... OK
+Building and testing TermReadKey-2.38 ... OK
+Successfully installed TermReadKey-2.38
+--> Working on File::HomeDir
+Fetching http://www.cpan.org/authors/id/R/RE/REHSACK/File-HomeDir-1.006.tar.gz ... OK
+Configuring File-HomeDir-1.006 ... OK
+==> Found dependencies: File::Which
+--> Working on File::Which
+Fetching http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.23.tar.gz ... OK
+Configuring File-Which-1.23 ... OK
+Building and testing File-Which-1.23 ... OK
+Successfully installed File-Which-1.23
+Building and testing File-HomeDir-1.006 ... OK
+Successfully installed File-HomeDir-1.006
+--> Working on Module::Starter
+Fetching http://www.cpan.org/authors/id/D/DB/DBOOK/Module-Starter-1.77.tar.gz ... OK
+Configuring Module-Starter-1.77 ... OK
+==> Found dependencies: Software::License
+--> Working on Software::License
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Software-License-0.103014.tar.gz ... OK
+Configuring Software-License-0.103014 ... OK
+==> Found dependencies: Data::Section, Text::Template
+--> Working on Data::Section
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Data-Section-0.200007.tar.gz ... OK
+Configuring Data-Section-0.200007 ... OK
+==> Found dependencies: MRO::Compat, Test::FailWarnings
+--> Working on MRO::Compat
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.13.tar.gz ... OK
+Configuring MRO-Compat-0.13 ... OK
+Building and testing MRO-Compat-0.13 ... OK
+Successfully installed MRO-Compat-0.13
+--> Working on Test::FailWarnings
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-FailWarnings-0.008.tar.gz ... OK
+Configuring Test-FailWarnings-0.008 ... OK
+==> Found dependencies: Capture::Tiny
+--> Working on Capture::Tiny
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz ... OK
+Configuring Capture-Tiny-0.48 ... OK
+Building and testing Capture-Tiny-0.48 ... OK
+Successfully installed Capture-Tiny-0.48
+Building and testing Test-FailWarnings-0.008 ... OK
+Successfully installed Test-FailWarnings-0.008
+Building and testing Data-Section-0.200007 ... OK
+Successfully installed Data-Section-0.200007
+--> Working on Text::Template
+Fetching http://www.cpan.org/authors/id/M/MS/MSCHOUT/Text-Template-1.59.tar.gz ... OK
+Configuring Text-Template-1.59 ... OK
+==> Found dependencies: Test::More::UTF8
+--> Working on Test::More::UTF8
+Fetching http://www.cpan.org/authors/id/M/MO/MONS/Test-More-UTF8-0.05.tar.gz ... OK
+Configuring Test-More-UTF8-0.05 ... OK
+Building and testing Test-More-UTF8-0.05 ... OK
+Successfully installed Test-More-UTF8-0.05
+Building and testing Text-Template-1.59 ... OK
+Successfully installed Text-Template-1.59
+Building and testing Software-License-0.103014 ... OK
+Successfully installed Software-License-0.103014
+Building and testing Module-Starter-1.77 ... OK
+Successfully installed Module-Starter-1.77
+--> Working on File::Touch
+Fetching http://www.cpan.org/authors/id/N/NE/NEILB/File-Touch-0.11.tar.gz ... OK
+Configuring File-Touch-0.11 ... OK
+Building and testing File-Touch-0.11 ... OK
+Successfully installed File-Touch-0.11
+--> Working on Hook::Output::Tiny
+Fetching http://www.cpan.org/authors/id/S/ST/STEVEB/Hook-Output-Tiny-1.00.tar.gz ... OK
+Configuring Hook-Output-Tiny-1.00 ... OK
+Building and testing Hook-Output-Tiny-1.00 ... OK
+Successfully installed Hook-Output-Tiny-1.00
+--> Working on File::Find::Rule
+Fetching http://www.cpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-0.34.tar.gz ... OK
+Configuring File-Find-Rule-0.34 ... OK
+==> Found dependencies: Text::Glob, Number::Compare
+--> Working on Text::Glob
+Fetching http://www.cpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.11.tar.gz ... OK
+Configuring Text-Glob-0.11 ... OK
+Building and testing Text-Glob-0.11 ... OK
+Successfully installed Text-Glob-0.11
+--> Working on Number::Compare
+Fetching http://www.cpan.org/authors/id/R/RC/RCLAMP/Number-Compare-0.03.tar.gz ... OK
+Configuring Number-Compare-0.03 ... OK
+Building and testing Number-Compare-0.03 ... OK
+Successfully installed Number-Compare-0.03
+Building and testing File-Find-Rule-0.34 ... OK
+Successfully installed File-Find-Rule-0.34
+--> Working on PPI
+Fetching http://www.cpan.org/authors/id/M/MI/MITHALDU/PPI-1.270.tar.gz ... OK
+Configuring PPI-1.270 ... OK
+==> Found dependencies: IO::String, Class::Inspector, Task::Weaken, Clone, Test::SubCalls, Test::Object
+--> Working on IO::String
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/IO-String-1.08.tar.gz ... OK
+Configuring IO-String-1.08 ... OK
+Building and testing IO-String-1.08 ... OK
+Successfully installed IO-String-1.08
+--> Working on Class::Inspector
+Fetching http://www.cpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz ... OK
+Configuring Class-Inspector-1.36 ... OK
+Building and testing Class-Inspector-1.36 ... OK
+Successfully installed Class-Inspector-1.36
+--> Working on Task::Weaken
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Task-Weaken-1.06.tar.gz ... OK
+Configuring Task-Weaken-1.06 ... OK
+Building and testing Task-Weaken-1.06 ... OK
+Successfully installed Task-Weaken-1.06
+--> Working on Clone
+Fetching http://www.cpan.org/authors/id/A/AT/ATOOMIC/Clone-0.45.tar.gz ... OK
+Configuring Clone-0.45 ... OK
+==> Found dependencies: B::COW
+--> Working on B::COW
+Fetching http://www.cpan.org/authors/id/A/AT/ATOOMIC/B-COW-0.004.tar.gz ... OK
+Configuring B-COW-0.004 ... OK
+Building and testing B-COW-0.004 ... OK
+Successfully installed B-COW-0.004
+Building and testing Clone-0.45 ... OK
+Successfully installed Clone-0.45
+--> Working on Test::SubCalls
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Test-SubCalls-1.10.tar.gz ... OK
+Configuring Test-SubCalls-1.10 ... OK
+==> Found dependencies: Hook::LexWrap
+--> Working on Hook::LexWrap
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Hook-LexWrap-0.26.tar.gz ... OK
+Configuring Hook-LexWrap-0.26 ... OK
+Building and testing Hook-LexWrap-0.26 ... OK
+Successfully installed Hook-LexWrap-0.26
+Building and testing Test-SubCalls-1.10 ... OK
+Successfully installed Test-SubCalls-1.10
+--> Working on Test::Object
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Test-Object-0.08.tar.gz ... OK
+Configuring Test-Object-0.08 ... OK
+Building and testing Test-Object-0.08 ... OK
+Successfully installed Test-Object-0.08
+Building and testing PPI-1.270 ... OK
+Successfully installed PPI-1.270
+--> Working on Mock::Sub
+Fetching http://www.cpan.org/authors/id/S/ST/STEVEB/Mock-Sub-1.09.tar.gz ... OK
+Configuring Mock-Sub-1.09 ... OK
+Building and testing Mock-Sub-1.09 ... OK
+Successfully installed Mock-Sub-1.09
+--> Working on File::Copy::Recursive
+Fetching http://www.cpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz ... OK
+Configuring File-Copy-Recursive-0.45 ... OK
+==> Found dependencies: Path::Tiny, Test::File
+--> Working on Path::Tiny
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.114.tar.gz ... OK
+Configuring Path-Tiny-0.114 ... OK
+Building and testing Path-Tiny-0.114 ... OK
+Successfully installed Path-Tiny-0.114
+--> Working on Test::File
+Fetching http://www.cpan.org/authors/id/B/BD/BDFOY/Test-File-1.443.tar.gz ... OK
+Configuring Test-File-1.443 ... OK
+==> Found dependencies: Test::utf8
+--> Working on Test::utf8
+Fetching http://www.cpan.org/authors/id/M/MA/MARKF/Test-utf8-1.02.tar.gz ... OK
+Configuring Test-utf8-1.01 ... OK
+Building and testing Test-utf8-1.01 ... OK
+Successfully installed Test-utf8-1.01
+Building and testing Test-File-1.443 ... OK
+Successfully installed Test-File-1.443
+Building and testing File-Copy-Recursive-0.45 ... OK
+Successfully installed File-Copy-Recursive-0.45
+58 distributions installed
+

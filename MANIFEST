@@ -1,8 +1,4 @@
 .github/workflows/github_ci_default.yml
-'bblog/localhost_5.10.1-FAIL.bblog.2021-01-02 01:57:02.000'
-'bblog/localhost_5.16.3-FAIL.bblog.2021-01-02 01:57:02.000'
-'bblog/localhost_5.18.3-FAIL.bblog.2021-01-02 01:57:02.000'
-'bblog/localhost_5.32.0-FAIL.bblog.2021-01-02 01:57:02.000'
 Changes
 lib/Acme/STEVEB.pm
 Makefile.PL

@@ -3,7 +3,7 @@ package Acme::STEVEB;
 use strict;
 use warnings;
 
-our $VERSION = '1.47';
+our $VERSION = '1.48';
 
 sub __placeholder {}
 

@@ -1,4 +1,1 @@
-asdfasdfisdfasdfasdfasdfasdfasdfadsfuse warnings;
-use strict;
-
-zxcvasdf
+asdf

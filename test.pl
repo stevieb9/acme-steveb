@@ -1,4 +1,4 @@
-use warnings;
+adsfuse warnings;
 use strict;
 
 asdf

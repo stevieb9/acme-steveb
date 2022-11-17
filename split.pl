@@ -1,1 +1,2 @@
 use warnings;
+use strict;
